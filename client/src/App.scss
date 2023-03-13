@@ -64,6 +64,13 @@ input {
   }
 }
 
+.button:disabled {
+  background-color: #757c7c;
+  &:hover {
+    cursor: auto;
+  }
+}
+
 .wallet {
   display: flex;
   flex-direction: column;
